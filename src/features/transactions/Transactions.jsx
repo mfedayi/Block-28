@@ -67,7 +67,7 @@ export default function Transactions() {
             <button default name="deposit">
               Deposit
             </button>
-            <button name="withdraw">Withdraw</button>
+            <button name="withdrawal">Withdraw</button>
           </div>
         </div>
         <div className="form-row">

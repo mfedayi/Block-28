@@ -36,7 +36,7 @@ const transactionsSlice = createSlice({
         type: "withdrawal",
         amount: payload.amount,
         balance: state.balance,
-      });
+      })
     },
     deposit: (state, { payload }) => {
       state.balance += payload.amount;
